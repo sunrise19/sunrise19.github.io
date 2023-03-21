@@ -1,0 +1,70 @@
+body{
+    padding: 15px;
+}
+
+ul{
+   padding: 0px;
+}
+
+li{
+    list-style: decimal inside;
+    margin-bottom: -1px;
+    border: 1px solid  rgb(156, 156, 156);
+    border-radius: 7px;
+    padding: 9px;
+    transition: height .4s, transform .3s;
+}
+li:hover{
+    box-shadow: 0px 2px 3px rgb(156, 156, 156);
+    height: 20px;
+    transform: scale(1.009);
+}
+
+.done-icon{
+    color: #fff;
+    font-size: 16px;
+   background-color: rgb(1, 117, 63);
+    float: right;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: transform .2s;
+}
+.done-icon:hover{
+    transform: scale(1.6);
+}
+
+.delete-icon{
+    color: #e00202;
+    font-size: 16px;
+    /* border-radius: 5px; */
+    float: right;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: transform .2s;
+}
+.delete-icon:hover{
+    transform: scale(1.6);
+}
+
+.input-class{
+    position: absolute;
+    height: 22px;
+    width: 240px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.add-button{
+    position: relative;
+    top: 3px;
+    left: 193px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 50px;
+    background-color: rgb(1, 117, 63);
+    color: white;
+    cursor: pointer;
+}
+.add-button{
+    border: ipx groove;
+}
